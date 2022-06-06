@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="w-full sm:w-1/2">
           <h3 className="font-normal text-xl mb-4">Bio</h3>
           <p className="text-gray-400">
-            Now I&apos;m working over 15 years as an System Administrator, but i also
+            Now I`m working over 15 years as an System Administrator, but i also
             love the tech stack of web developing. To improve my skills i
             decided to take some free time to participate some challenges.
           </p>
