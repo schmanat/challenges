@@ -1,9 +1,7 @@
 import React from "react";
 import Card from "./Card";
-import { challenges } from "../data/challenges";
 
-const ChallengeList = () => {
-  console.log(challenges);
+const ChallengeList = ({ challenges }) => {
   return (
     <section className="py-6 lg:py-10 mx-4">
       <h2 className="text-center font-semibold text-2xl my-8">Challenges</h2>

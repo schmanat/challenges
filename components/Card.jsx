@@ -29,8 +29,8 @@ const Card = ({ data }) => {
               <Link href={github}>
                 <FaGithub
                   data-tip="Source Code"
-                  size={15}
-                  className="hover:text-cyan-600 hover:cursor-pointer text-gray-700/50 transition-colors duration-150"
+                  size={20}
+                  className="hover:text-cyan-600 hover:cursor-pointer text-gray-700/50 transition-colors duration-200"
                 />
               </Link>
             </li>
@@ -38,7 +38,7 @@ const Card = ({ data }) => {
               <Link href={live_url}>
                 <FaTrophy
                   data-tip="Live Preview"
-                  size={15}
+                  size={20}
                   className="hover:text-cyan-600 hover:cursor-pointer text-gray-700/50 transition-colors duration-150"
                 />
               </Link>

@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import ChallengeList from "../components/ChallangeList";
 import Footer from "../components/Footer";
+import { challenges } from "../data/challenges";
+import { techStack } from "../data/techstack";
 
 export default function Home() {
   return (
@@ -34,9 +36,13 @@ export default function Home() {
       <main className="bg-slate-50 border-t-4f border-cyan-600 min-h-screen text-gray-700 font-poppins font-light">
         <Header />
         <Hero />
-        <ChallengeList />
-        <Footer />
+        <ChallengeList challenges={challenges} />
+        <Footer techstack={techStack} />
       </main>
     </div>
   );
+}
+
+export async function getStaticProps() {
+  return { props: { challenges, techStack } };
 }
