@@ -1,5 +1,4 @@
 import React from "react";
-import { CountUp } from "use-count-up";
 
 const Hero = () => {
   return (

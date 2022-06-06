@@ -1,4 +1,4 @@
-const challenges = [
+export const challenges = [
   {
     id: "1",
     title: "Interactive rating component",
@@ -70,7 +70,3 @@ const challenges = [
       "https://raw.githubusercontent.com/schmanat/devchallanges-my-team-page/master/screenshot.png",
   },
 ];
-
-export default function handler(req, res) {
-  res.status(200).json({ count: challenges.length, data: challenges });
-}
