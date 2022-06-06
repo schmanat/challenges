@@ -15,9 +15,10 @@ const TechStackList = ({ title, logo, url }) => (
   </Link>
 );
 
-const Footer = () => {
+const Footer = ({ techstack }) => {
   return (
     <footer className="bg-white py-8 md:py-20 drop-shadow-lg px-4">
+      {console.log(techstack)}
       <div className="max-w-screen-xl mx-auto w-full flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
         <div className="w-full sm:w-1/2">
           <h3 className="font-normal text-xl mb-4">Bio</h3>
@@ -30,7 +31,7 @@ const Footer = () => {
         <div>
           <h3 className="font-normal text-xl mb-4">Tech Stack</h3>
           <div className="space-y-2">
-            {techStack.map(({ id, title, logo, url }) => (
+            {techstack.map(({ id, title, logo, url }) => (
               <TechStackList key={id} title={title} logo={logo} url={url} />
             ))}
           </div>
