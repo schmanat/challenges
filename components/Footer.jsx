@@ -4,13 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 const TechStackList = ({ title, logo, url }) => (
-  <Link href={url}>
-    <div className="flex space-x-4 items-center cursor-pointer">
-      <Image src={logo} width={16} height={16} alt={`${title} logo`} />
-      <a className="link--slide-in focus:text-cyan-600 hover:text-cyan-600">
-        {title}
-      </a>
-    </div>
+  <Link href={url} passHref>
+    <a className="inline-flex space-x-4 items-center cursor-pointer link--slide-in focus:text-cyan-600 hover:text-cyan-600">
+      <Image src={logo} width={"16px"} height={"16px"} alt={`${title} logo`} />
+      <span className="">{title}</span>
+    </a>
   </Link>
 );
 
@@ -20,7 +18,7 @@ const Footer = ({ techstack }) => {
       <div className="max-w-screen-xl mx-auto w-full flex flex-col md:flex-row justify-between space-y-8 sm:space-y-0">
         <div className="w-full sm:w-1/2">
           <h3 className="font-normal text-xl mb-4">Bio</h3>
-          <p className="text-gray-400">
+          <p className="text-gray-600">
             Now I`m working over 15 years as an System Administrator, but i also
             love the tech stack of web developing. To improve my skills i
             decided to take some free time to participate some challenges.
