@@ -7,6 +7,7 @@ const TechStackList = ({ title, logo, url }) => (
   <Link href={url} passHref>
     <a className="inline-flex space-x-4 items-center cursor-pointer link--slide-in focus:text-cyan-600 hover:text-cyan-600">
       <Image src={logo} width={"16px"} height={"16px"} alt={`${title} logo`} />
+
       <span className="">{title}</span>
     </a>
   </Link>

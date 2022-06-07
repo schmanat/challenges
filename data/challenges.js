@@ -63,4 +63,15 @@ export const challenges = [
     challenge_url: "https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U",
     image: "/assets/images/challenges/my-team-page.png",
   },
+  {
+    id: "7",
+    title: "Stats preview card component",
+    github:
+      "https://github.com/schmanat/frontendmetor-stats-preview-card-component",
+    live_url: "https://frontendmetor-stats-preview-card-component.vercel.app/",
+    challenge_source: "Frontendmentor",
+    challenge_url:
+      "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62",
+    image: "/assets/images/challenges/stats-preview-card-component.png",
+  },
 ];
