@@ -9,8 +9,7 @@ export const challenges = [
     challenge_source: "Frontendmentor",
     challenge_url:
       "https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI",
-    image:
-      "https://raw.githubusercontent.com/schmanat/frontendmentor-interactive-rating-component/main/screenshot.png",
+    image: "/assets/images/challenges/interactive-rating-component.png",
   },
   {
     id: "2",
@@ -22,8 +21,7 @@ export const challenges = [
     challenge_source: "Frontendmentor",
     challenge_url:
       "https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H",
-    image:
-      "https://raw.githubusercontent.com/schmanat/frontendmentor-order-summary-component/main/screenshot.png",
+    image: "/assets/images/challenges/order-summary-component.png",
   },
   {
     id: "3",
@@ -33,8 +31,7 @@ export const challenges = [
     challenge_source: "Frontendmentor",
     challenge_url:
       "https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj",
-    image:
-      "https://raw.githubusercontent.com/schmanat/frontendmentor-qr-code-component/main/screenshot.jpg",
+    image: "/assets/images/challenges/qr-code-component.jpg",
   },
   {
     id: "4",
@@ -46,8 +43,7 @@ export const challenges = [
     challenge_source: "Frontendmentor",
     challenge_url:
       "https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-",
-    image:
-      "https://raw.githubusercontent.com/schmanat/frontendmentor-3-column-preview-card-component/master/screenshot.jpg",
+    image: "/assets/images/challenges/3-column-preview-card-component.jpg",
   },
   {
     id: "5",
@@ -56,8 +52,7 @@ export const challenges = [
     live_url: "https://devchallenges-404-not-found.vercel.app/",
     challenge_source: "devchallenges",
     challenge_url: "https://devchallenges.io/solutions/DAGMy0k7MFKTVwOCxFLI",
-    image:
-      "https://raw.githubusercontent.com/schmanat/devchallenges-404-not-found/master/screenshot.jpg",
+    image: "/assets/images/challenges/404-not-found.jpg",
   },
   {
     id: "6",
@@ -66,7 +61,6 @@ export const challenges = [
     live_url: "https://devchallanges-my-team-page.vercel.app/",
     challenge_source: "devchallenges",
     challenge_url: "https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U",
-    image:
-      "https://raw.githubusercontent.com/schmanat/devchallanges-my-team-page/master/screenshot.png",
+    image: "/assets/images/challenges/my-team-page.png",
   },
 ];

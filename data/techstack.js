@@ -1,31 +1,26 @@
-import VercelIcon from "../public/assets/images/brands/vercel.svg";
-import NextJSIcon from "../public/assets/images/brands/nextdotjs.svg";
-import TailwindCSSIcon from "../public/assets/images/brands/tailwindcss.svg";
-import ReactJSIcon from "../public/assets/images/brands/react.svg";
-
 export const techStack = [
   {
     id: 1,
     title: "Vercel",
-    logo: VercelIcon,
+    logo: "/assets/images/brands/vercel.svg",
     url: "https://vercel.com",
   },
   {
     id: 2,
     title: "NextJS",
-    logo: NextJSIcon,
+    logo: "/assets/images/brands/nextdotjs.svg",
     url: "https://nextjs.com",
   },
   {
     id: 3,
     title: "TailwindCSS",
-    logo: TailwindCSSIcon,
+    logo: "/assets/images/brands/tailwindcss.svg",
     url: "https://tailwindcss.com",
   },
   {
     id: 4,
     title: "ReactJS",
-    logo: ReactJSIcon,
+    logo: "/assets/images/brands/react.svg",
     url: "https://reactjs.org",
   },
 ];
