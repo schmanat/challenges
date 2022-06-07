@@ -74,4 +74,15 @@ export const challenges = [
       "https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62",
     image: "/assets/images/challenges/stats-preview-card-component.png",
   },
+  {
+    id: "8",
+    title: "Four card feature section",
+    github: "https://frontendmentor-four-card-feature-section-zeta.vercel.app/",
+    live_url:
+      "https://frontendmentor-four-card-feature-section-zeta.vercel.app/",
+    challenge_source: "Frontendmentor",
+    challenge_url:
+      "https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK",
+    image: "/assets/images/challenges/four-card-feature-section.png",
+  },
 ];
